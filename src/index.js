@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "react-vertical-timeline-component/style.min.css"
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,4 +1,5 @@
 import React from "react"
+import "./Header.css"
 import Logo from "../Logo.svg"
 import { Navbar, Nav, Container } from "react-bootstrap"
 
@@ -8,7 +9,7 @@ export const Header = () => {
       <Container>
         <Navbar.Brand href="#home"><img src={Logo} width="20" height="20" className="d-inline-block align-middle me-2 mb-1" alt="My logo" />My Portfolio.</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav" className="text-center">
           <Nav className="ms-auto">
             <Nav.Link href="#Home">Home</Nav.Link>
             <Nav.Link href="#About">About</Nav.Link>
