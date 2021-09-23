@@ -10,7 +10,7 @@ export default function About() {
             <div className="About">
                 <Row>
                     <Col>
-                        <h2 className="mb-3 d-flex align-items-center justify-content-center justify-content-md-start">About Me</h2>
+                        <h2 className="h mb-4 d-flex align-items-center justify-content-center justify-content-md-start">About Me</h2>
                     </Col>
                 </Row>
                 <Row className="t2">

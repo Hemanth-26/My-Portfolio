@@ -1,0 +1,10 @@
+  /*************For Large Devices******************/
+
+  @media (min-width: 1200px){
+    .h{
+          font-size: 2.5rem !important
+      }
+      .p{
+        font-size:  1.5rem !important
+      }
+  }
