@@ -1,23 +1,23 @@
 import React from "react"
-import "./CarousalSkills.css"
 import { Container, Carousel, Card, CardGroup, Row, Col } from "react-bootstrap"
-import HtmlLogoCard from "../CardImage/HtmlLogoCard.svg"
-import CssLogoCard from "../CardImage/CssLogoCard.svg"
-import JsLogoCard from "../CardImage/JsLogoCard.svg"
-import BootstrapLogoCard from "../CardImage/BootstrapLogoCard.svg"
-import JqureyLogoCard from "../CardImage/JqureyLogoCard.svg"
-import ReactLogoCard from "../CardImage/ReactLogoCard.svg"
-import ReduxLogoCard from "../CardImage/ReduxLogoCard.svg"
-import JsonLogoCard from "../CardImage/JsonLogoCard.svg"
-import GitLogoCard from "../CardImage/GitLogoCard.svg"
-import ResponsiveDesignLogoCard from "../CardImage/ResponsiveDesignLogoCard.svg"
+import "./CarousalSkills.css"
+import HtmlLogoCard from "./CardImage/HtmlLogoCard.svg"
+import CssLogoCard from "./CardImage/CssLogoCard.svg"
+import JsLogoCard from "./CardImage/JsLogoCard.svg"
+import BootstrapLogoCard from "./CardImage/BootstrapLogoCard.svg"
+import JqureyLogoCard from "./CardImage/JqureyLogoCard.svg"
+import ReactLogoCard from "./CardImage/ReactLogoCard.svg"
+import ReduxLogoCard from "./CardImage/ReduxLogoCard.svg"
+import JsonLogoCard from "./CardImage/JsonLogoCard.svg"
+import GitLogoCard from "./CardImage/GitLogoCard.svg"
+import ResponsiveDesignLogoCard from "./CardImage/ResponsiveDesignLogoCard.svg"
 
 
 function CarousalSkills() {
     return (
         <Container className="mt-5 mb-5">
             <Carousel indicators={false} nextIcon="" nextLabel="" prevIcon="" prevLabel="" variant="dark" fade>
-                <Carousel.Item interval={2500}>
+                <Carousel.Item interval={1500}>
                     <Row>
                         <Col xs={12}>
                             <CardGroup className="d-flex justify-content-evenly">
@@ -46,7 +46,7 @@ function CarousalSkills() {
                     </Row>
                 </Carousel.Item>
 
-                <Carousel.Item interval={2500}>
+                <Carousel.Item interval={1500}>
                     <Row>
                     <Col xs={12}>
                             <CardGroup className="d-flex justify-content-evenly">
@@ -75,7 +75,7 @@ function CarousalSkills() {
                     </Row>
                 </Carousel.Item>
                 
-                <Carousel.Item interval={2500}>
+                <Carousel.Item interval={1500}>
                     <Row>
                     <Col xs={12}>
                             <CardGroup className="d-flex justify-content-evenly">
@@ -104,7 +104,7 @@ function CarousalSkills() {
                     </Row>
                 </Carousel.Item>
 
-                <Carousel.Item interval={2500}>
+                <Carousel.Item interval={1500}>
                     <Row>
                     <Col xs={12}>
                             <CardGroup className="d-flex justify-content-evenly">
@@ -133,7 +133,7 @@ function CarousalSkills() {
                     </Row>
                 </Carousel.Item>
 
-                <Carousel.Item interval={2500}>
+                <Carousel.Item interval={1500}>
                     <Row>
                     <Col xs={12}>
                             <CardGroup className="d-flex justify-content-evenly">

@@ -1,14 +1,19 @@
-import React from "react"
-import "./Skills.css"
+import React, { useEffect } from "react"
 import { Container, Row, Col, Image } from "react-bootstrap"
 import CarousalSkills from "./CarousalSkills"
-import ImgReact from "../ReactJs.svg"
+import AOS from 'aos';
+import "aos/dist/aos.css"
+import "./Skills.css"
+import ImgReact from "./ReactJs.gif"
 
 
 export default function Skills() {
+    useEffect(()=>{
+        AOS.init({ duration: 3000});
+    },[])
     return (
-        <Container>
-            <div className="Skills">
+        <Container  id="Skills" style={{marginTop: "9.375rem"}}>
+            <div className="Skills" data-aos="fade-up" data-aos-once="false">
                 <Row className="align-items-center">
                     <Col>
                         <h2 className="h mb-3 d-flex align-items-center justify-content-start">Skills</h2>
@@ -18,7 +23,7 @@ export default function Skills() {
                     </Col>
                 </Row>
             </div>
-            <div className="ListSkill">
+            <div className="ListSkill" data-aos="fade-up" data-aos-once="false">
                 <CarousalSkills />
             </div>
         </Container>

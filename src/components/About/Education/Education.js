@@ -1,22 +1,22 @@
 import React from "react"
-import { ReactComponent as WorkIcon } from "../College.svg"
-import { ReactComponent as SchoolIcon } from "../School.svg"
-import { ReactComponent as Job } from "../Job.svg"
 import timelineElements from "./timelineElements.js"
 import { VerticalTimeline, VerticalTimelineElement, } from "react-vertical-timeline-component"
+import { ReactComponent as Job } from "./Job.svg"
+import { ReactComponent as WorkIcon } from "./College.svg"
+import { ReactComponent as SchoolIcon } from "./School.svg"
 
 
 function Education() {
     let workIconStyles = { background: "#06D6A0" }
     let schoolIconStyles = { background: "#f9c74f" }
-    let jobIconStyles = { background: "linear-gradient(90deg, rgba(0,173,198,1) 0%, rgba(0,212,255,0.8715861344537815) 100%)" }
+    let jobIconStyles = { background: "linear-gradient(90deg, rgb(121 238 255) 0%, rgba(0, 212, 255, 0.87) 100%)" }
     return (
-        <div>
+        <div style={{marginTop: "6.25rem"}}>
             <h1 className="title">Education</h1>
             <VerticalTimeline>
                 {timelineElements.map(element => {
                     let isWorkIcon = element.icon
-
+                    /**Set Timeline Logics and Data imported in timelineElement File */
                     return (
                         <VerticalTimelineElement
                             key={element.id}

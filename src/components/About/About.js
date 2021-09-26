@@ -1,13 +1,19 @@
-import React from "react"
-import "./About.css"
+import React, { useEffect } from "react"
 import { Container, Row, Col, Image } from "react-bootstrap"
-import CodeRight from "../CodeRight.svg"
-import Education from "./Education"
+import Education from "./Education/Education"
+import AOS from 'aos';
+import "aos/dist/aos.css"
+import "./About.css"
+import CodeRight from "./CodeRight.svg"
 
 export default function About() {
+    useEffect(()=>{
+        AOS.init({ duration: 3000});
+    },[])
+
     return (
-        <Container>
-            <div className="About">
+        <Container id="About" style={{marginTop: "9.375rem"}}>
+            <div className="About" data-aos="fade-up" data-aos-once="false">
                 <Row>
                     <Col>
                         <h2 className="h mb-4 d-flex align-items-center justify-content-center justify-content-md-start">About Me</h2>
