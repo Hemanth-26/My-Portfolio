@@ -25,7 +25,7 @@ export default function About() {
                     </Col>
                     <Col md={8}>
                         <p>
-                        Seeking a challenging role as a Front-End Developer in a technology-driven organization where I can leverage my expertise in React.js and UI/UX optimization to build scalable, high-performance web applications. Passionate about clean architecture, performance tuning, and mentoring teams, I aim to contribute innovative solutions and drive impactful digital experiences.
+                        Passionate MERN Stack Developer eager to build scalable, high-performance web applications using React.js, Node.js, Express.js, and MongoDB. I love writing clean, efficient code, optimizing performance, and crafting seamless user experiences with modern web technologies.
                         </p>
                     </Col>
                 </Row>
