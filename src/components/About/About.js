@@ -25,7 +25,7 @@ export default function About() {
                     </Col>
                     <Col md={8}>
                         <p>
-                            To take a challenging role as Front-End Developer in a highly technical company where I could utilize my skills in Front-End Development. Looking to utilize my technology and leadership skills in an esteemed organization.
+                        Seeking a challenging role as a Front-End Developer in a technology-driven organization where I can leverage my expertise in React.js and UI/UX optimization to build scalable, high-performance web applications. Passionate about clean architecture, performance tuning, and mentoring teams, I aim to contribute innovative solutions and drive impactful digital experiences.
                         </p>
                     </Col>
                 </Row>

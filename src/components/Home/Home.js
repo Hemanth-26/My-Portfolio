@@ -12,7 +12,7 @@ export default function Home() {
                     <Col md={6} className="d-flex flex-column justify-content-evenly">
                         <h3 className="t1" style={{ marginBottom: "0px", color: "#493ecf" }}>Hi There ! </h3>
                         <h2 className="t1" style={{ paddingLeft: "10px" }}>I'm Hemanth</h2>
-                        <Typed className="t2" style={{ paddingLeft: "20px" }} strings={["Front-End Developer", "Web Developer", "React Developer", "Web Designer"]} 
+                        <Typed className="t2" style={{ paddingLeft: "20px" }} strings={["Full Stack Developer (MERN)","Front-End Developer", "Back-End Developer", "Web Developer", "React Developer", "Node JS Developer","Web Designer"]} 
                         typeSpeed={60} backSpeed={60}
                         loop
                         />
